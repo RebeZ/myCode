@@ -1,0 +1,1 @@
+// dummy BitOutputStream for checkpoint
