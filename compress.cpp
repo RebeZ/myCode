@@ -34,10 +34,16 @@ void writeToFile(const string& outputFile, const vector<string> outputText)
 	myFile.open(outputFile);
 	string line = "";		// each line
 	vector<string> text;	// text of whole file
+	long int lineSize = 5; 	// line size in byte, 4 bytes int + 1 byte newline
 
 	// write outputText content to outputFile line by line
 	for(int i = 0; i < outputText.size(); i++){
-		myFile.write ( "" << outputText.at(i) << "\n", 5);		// write int + newline, 5 bytes per line
+
+		//TODO
+		outputFile << outputText[i] << endl;
+
+		//string tmp = outputText.at(i);
+		//myFile.write (tmp, 5);	// 5 bytes per line
 	}
 
 	myFile.close();
