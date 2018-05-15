@@ -1,5 +1,6 @@
 // dummy BitInputStream.cpp for checkpoint
-
+// Huijing Zhao
+// Hongji Jiang
 #include "BitInputStream.h"
 
 
