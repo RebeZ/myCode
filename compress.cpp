@@ -1,6 +1,11 @@
 //----------------------------------
 //---------compress.cpp-------------
 //----------------------------------
+/**
+ * @auther
+ * Hongji Jiang
+ * Huijing Zhao
+ */
 
 #include <iostream>
 #include <fstream>
